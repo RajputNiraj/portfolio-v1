@@ -1,8 +1,6 @@
 import React from "react";
-import demoImage from "../../public/demo.png";
 import petshopImage from "../../public/petshop.png";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 export const links = [
