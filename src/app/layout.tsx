@@ -7,6 +7,7 @@ import ActiveSectionContextProvider from "@/context/active-section-context";
 import ThemeContextProvider from "@/context/theme-context";
 import ThemeSwitch from "@/components/theme-switch";
 import { Toaster } from "react-hot-toast";
+import ArchiveNotice from "@/components/archive-notice";
 
 const poppins = Poppins({
   fallback: ["sans-serif"],
@@ -38,6 +39,7 @@ export default function RootLayout({
             <Footer />
             <Toaster position="top-right" />
             <ThemeSwitch />
+            <ArchiveNotice />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
